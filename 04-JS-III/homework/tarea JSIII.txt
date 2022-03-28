@@ -1,0 +1,18 @@
+*Variables: una variable es algo del codigo JS al que se le asigna un nombre, un valor o algo para usarlo más adelante en el código.
+
+*Strings: es un cuadro donde sólo se puede introducir texto.
+
+*Funciones(Argumentos, return): Una función le dice a la computadora o programa que lo leerá, como debe tratar este segmento. Dentro de la función se encuentra un proceso a ejecutar. Para que funcione correctamente debe llevar paréntesis y corchetes.
+Un argumento es...es un atributo  que da un valor a una variable
+un argumento son como variables que decalramos dentro de la funcion que tomaran un valor cuando se invoque la función.
+Return es el resultado que devuelve después de realizar la operación encerrada en la funcion. La función no se puede ver, sólo se puede ver el return.
+
+*Declaraciones(if): un if es una condición (se traduce como "si", condicional) y lo que hará es ver entre dos parametros y devolverá la opción correcta. Por ejemplo: Si tengo verduras, haré enssalada, SINO, no hago nada.
+
+*Valores Booleanos (true,false): Son valores que sólo tienen 2 opciones, y dependiendo la sentencia previa, nos devolverá si es verdadero o falso.
+
+
+
+TOKEN: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
+
+https://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github.com/jonaaris/Curso.Prep.Henry.git
