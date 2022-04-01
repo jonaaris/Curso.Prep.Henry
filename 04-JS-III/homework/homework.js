@@ -3,21 +3,19 @@
 function devolverPrimerElemento(array) {
   // Devuelve el primer elemento de un  array (pasado por parametro)
   // Tu código:
-  return array[0];  
+  return array[0];
 }
 
 
 function devolverUltimoElemento(array) {
   // Devuelve el último elemento de un array
   // Tu código:
-  return array[array.length -1];
 }
 
 
 function obtenerLargoDelArray(array) {
   // Devuelve el largo de un array
   // Tu código:
-  return array.length;
 }
 
 
@@ -26,11 +24,6 @@ function incrementarPorUno(array) {
   // Aumenta cada entero por 1
   // y devuelve el array
   // Tu código:
-  for(var i=0; i<array.length; i++){
-    array[i]=array[i]+1;
-  }
-return array;
-
 }
 
 
@@ -38,9 +31,6 @@ function agregarItemAlFinalDelArray(array, elemento) {
   // Añade el "elemento" al final del array
   // y devuelve el array
   // Tu código:
-
-  array.push(elemento);
-  return array
 }
 
 
@@ -49,8 +39,6 @@ function agregarItemAlComienzoDelArray(array, elemento) {
   // y devuelve el array
   // Pista: usa el método `.unshift`
   // Tu código:
-  array.unshift(elemento);
-  return array
 }
 
 
@@ -60,13 +48,6 @@ function dePalabrasAFrase(palabras) {
   // con espacios entre cada palabra
   // Ejemplo: ['Hello', 'world!'] -> 'Hello world!'
   // Tu código:
-  // OTRA FORMA: Return palabras.join(' ') SE LE JOIN(UNE) UN ESPACIO A CADA PALABRA
-  var frase = ''
-  for (var i= 0; i < palabras.length; i++){
-    frase = frase + ' ' + palabras[i];
-    
-  }
-  return frase.trimStart(); //trim.start le quita el espacio del comienzo
 }
 
 
@@ -74,27 +55,13 @@ function arrayContiene(array, elemento) {
   // Comprueba si el elemento existe dentro de "array"
   // Devuelve "true" si está, o "false" si no está
   // Tu código:
-  // OTRA FORMA: Return array.includes(elemento);  SI DENTRO DEL ARRAY SE ENCUENTRA EL 'ELEMENTO', REPONDERA TRUE O FALSE
-  for(var i=0; i=array.length;i++){
-    if(array[i] === elemento) {
-      return true
-    }
-  }
-  return false;
-
-  }
+}
 
 
 function agregarNumeros(numeros) {
   // "numeros" debe ser un arreglo de enteros (int/integers)
   // Suma todos los enteros y devuelve el valor
   // Tu código:
-  // OTRA FORMA: Return numeros.reduce(function(acc,el){return acc + el}) NO LO ENTENDI
-  var acumulador = 0
-  for(var i=0; i=numeros.length;i++){
-    acumulador += numeros[i];
-  }
-  return acumulador;
 }
 
 
@@ -102,14 +69,6 @@ function promedioResultadosTest(resultadosTest) {
   // "resultadosTest" debe ser una matriz de enteros (int/integers)
   // Itera (en un bucle) los elementos del array, calcula y devuelve el promedio de puntajes
   // Tu código:
-  // OTRA FORMA: Return resultadosTest.reduce((acc,el)=> acc + el) / resultadosTest.length    // NO LO ENTENDI
-  var i = 0;
-  var suma = 0;
-  while(i< resultadosTest.length){
-    suma += resultadosTest[i];
-    i++
-  }
-  return suma / resultadosTest.length;
 }
 
 
@@ -117,22 +76,13 @@ function numeroMasGrande(numeros) {
   // "numeros" debe ser una matriz de enteros (int/integers)
   // Devuelve el número más grande
   // Tu código:
-  let max = numeros(0);
-  for(let i=0; i< numeros.length; i++){
-    if(numeros[i]> max){
-      max = numeros[i];
-    }
-  }
-  return max;
 }
 
 
 function multiplicarArgumentos() {
   // Usa la palabra clave `arguments` para multiplicar todos los argumentos y devolver el producto
-  // Si no se pasan argumentos devuelve 0. Si se pasa un argumento, simplemente devuélvelo
+  // Si no se pasan argumentos devuelve 0. Si se pasa un argumento, simplemente devuélvelo
   // Escribe tu código aquí:
-  
-  
 }
 
 
@@ -148,11 +98,6 @@ function diaDeLaSemana(numeroDeDia) {
   //Realiza una función que dado el número del día de la semana, retorne: Es fin de semana
   //si el día corresponde a Sábado o Domingo y “Es dia Laboral” en caso contrario. 
   //Escribe tu código aquí   
-  if(numeroDeDia === 1 || numeroDeDia === 7){
-    return 'Es fin de semana';
-  }else{
-    return 'Es dia laboral';
-  }
   
 } 
 
